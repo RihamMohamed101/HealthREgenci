@@ -16,9 +16,9 @@ for (let i = 0; i < btn.length; i++) {
 
 
 const posts = [
-    { title: "Health Tips for [Region's Name] Residents ", category: "Category 1", content: "A brief overview of health considerations unique to the region."  },
-    { title: "Health ", category: "Category 2", content: "Encouragement for small, positive changes toward a healthier lifestyle." },
-    { title: "Health Tips", category: "Category 1", content: "Advice for promoting health and wellness within families." },
+    { title: "How to Set SMART Goals for Weight Loss", category: "Category 1", content: "Losing weight is often on our list of personal goals, but how we set these goals can make the difference between a fleeting attempt and achieving lasting success. The key lies in setting SMART goals.  The SMART framework ensures your …"  },
+    { title: "Intermittent Fasting Questions ", category: "Category 2", content: "Intermittent fasting is one of my favorite topics, and I’ve written many articles all about how intermittent fasting (IF) can help you lose weight, improve your health, etc. So it’s not surprising that I get A LOT of questions about …" },
+    { title: "Fasting Benefits That Will Blow Your Mind", category: "Category 1", content: "Fasting benefits! It seems like everyone is talking about fasting these days. Intermittent fasting is the fasting that everyone is talking about. If you haven’t heard about intermittent fasting, it’s just a matter of time because it’s a rapidly growing …" },
   ];
 
 
