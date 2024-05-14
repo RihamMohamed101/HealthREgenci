@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Righteous&family=Rock+Salt&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+/* Body styles */
+body {
+    font-family: "Tajawal", sans-serif
+    
+}
+
+ nav a {
+    color: black !important;
+ }
+
+ .main-color {
+    color: #98C400 !important;
+ }
+
+
+.btn{
+    background-color: #98C400 !important;
+    border: none !important;
+    padding:20px 10 !important;
+}
+
+.btn:focus {
+    box-shadow:  none !important;
+}
+
+@media (max-width:768px) {
+    #doctors .card , #coaches .card , #Diests .card {
+        margin-bottom: 20px !important;
+    }
+
+        nav ul {
+            text-align: center !important;
+           
+        }
+
+    header .img {
+        display: none !important;
+    }
+}
+
+
+
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+#doctors ul li {
+    font-size: 14px !important;
+}
+
+
+.stars i {
+    margin-right: 5px !important;
+    color: #98C400 !important;
+
+}
+
+.icons .icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #98C400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#about-us {
+    background-image: url(../image/2.jpeg);
+    background-position: center;
+    background-size: cover;
+    color: #FFF;
+    position: relative;
+    z-index: 1;
+}
+
+#about-us::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #33333396;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
