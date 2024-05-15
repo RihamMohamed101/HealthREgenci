@@ -1,17 +1,3 @@
-let btn = document.querySelectorAll('.btn');
-
-for (let i = 0; i < btn.length; i++) {
-    btn[i].addEventListener('click', (event) => {
-        const detailId = event.target.getAttribute('href').substring(1); // Get the href attribute of the clicked button and remove the leading '#'
-        const detailElement = document.getElementById(detailId); 
-       if (detailElement.classList.contains('d-none')) {
-                detailElement.classList.remove('d-none');
-            } else {
-                detailElement.classList.add('d-none');
-            }
-
-    });
-}
 
 
 
